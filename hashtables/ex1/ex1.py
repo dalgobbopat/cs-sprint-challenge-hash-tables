@@ -7,7 +7,7 @@ def get_indices_of_item_weights(weights, length, limit):
     # Make a dict of the weights
     weights_dict = {}
 
-    # if the lenght of the wdights is less than 1 return None 
+    # if the lenght of the weights is less than 1 return None 
 
     if len(weights) <= 1:
         return None

@@ -9,8 +9,8 @@ def has_negatives(a):
     result = []
     # If number has a negative in hashtable print results 
     for i in a:
-        if i is -i in hashtable:
-            print(i)
+        if i > 0 and -i in a:
+            result.append(i)
 
     return result
 
